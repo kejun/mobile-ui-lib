@@ -1,0 +1,30 @@
+@import "mix";
+
+.button {
+  display: inline-block;
+  padding: 0 1em;
+  border: 1px solid #bfbfbf;
+  font-size: 14px;
+  line-height: 2em;
+  @include text-shadow(1px 1px 1px #fff);
+  @include border-radius(3px);
+  @include box-sizing(border-box);
+  @include gradient(#fcfcfc, #e0e0e0);
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: #252525;
+  }
+  &:active {
+    background-color: #c5c5c5;
+  }
+}
+
+.bn-item {
+  &:active {
+    background-color: rgba(180,180,180,0.2);
+  }
+}
+

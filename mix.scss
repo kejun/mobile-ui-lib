@@ -1,0 +1,57 @@
+@mixin box-sizing($value) {
+  -webkit-box-sizing: $value;
+     -moz-box-sizing: $value;
+          box-sizing: $value;
+}
+
+@mixin border-radius($value) {
+  -webkit-border-radius: $value;
+     -moz-border-radius: $value;
+          border-radius: $value;
+}
+
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+     -moz-box-shadow: $value;
+          box-shadow: $value;
+}
+
+@mixin text-shadow($value) {
+  -webkit-text-shadow: $value;
+     -moz-text-shadow: $value;
+          text-shadow: $value;
+}
+
+@mixin gradient($start_color, $end_color) {
+  background: #fcfcfc;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#e0e0e0));
+  background: -webkit-linear-gradient(top,  #fcfcfc 0%,#e0e0e0 100%);
+  background:    -moz-linear-gradient(top,  #fcfcfc 0%, #e0e0e0 100%);
+  background:      -o-linear-gradient(top,  #fcfcfc 0%,#e0e0e0 100%);
+  background:     -ms-linear-gradient(top,  #fcfcfc 0%,#e0e0e0 100%);
+  background:         linear-gradient(to bottom,  #fcfcfc 0%,#e0e0e0 100%);
+}
+
+@mixin background-size($value) {
+  -webkit-background-size: $value;
+     -moz-background-size: $value;
+          background-size: $value;
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+       -moz-transform: $value;
+            transform: $value;
+}
+
+@mixin transition($value) {
+    -webkit-transition: $value;
+       -moz-transition: $value;
+            transition: $value;
+}
+
+@mixin animation($value) {
+    -webkit-animation: $value;
+       -moz-animation: $value;
+            animation: $value;
+}

@@ -1,0 +1,60 @@
+.page-in {
+  -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  -webkit-transition: -webkit-transform .4s;
+}
+
+.page-out {
+  -webkit-transform: translate(100%, 0) scale(1) translateZ(0);
+  -webkit-transition: -webkit-transform .4s;
+}
+
+
+.main-content-out {
+  -webkit-transform: translate(-100%, 0) scale(1) translateZ(0);
+  -webkit-transition: -webkit-transform .4s;
+}
+
+.main-content-in {
+  -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  -webkit-transition: -webkit-transform .4s;
+}
+
+
+@-webkit-keyframes page_in {
+  0% {
+    -webkit-transform: translate(100%, 0) scale(1) translateZ(0);
+  } 
+  100% {
+    -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  } 
+} 
+
+@-webkit-keyframes page_out {
+  0% {
+    -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  } 
+  100% {
+    -webkit-transform: translate(100%, 0) scale(1) translateZ(0);
+  } 
+} 
+
+
+
+@-webkit-keyframes main_content_out {
+  0% {
+    -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  } 
+  100% {
+    -webkit-transform: translate(-100%, 0) scale(1) translateZ(0);
+  } 
+} 
+
+
+@-webkit-keyframes main_content_in {
+  0% {
+    -webkit-transform: translate(-100%, 0) scale(1) translateZ(0);
+  } 
+  100% {
+    -webkit-transform: translate(0, 0) scale(1) translateZ(0);
+  } 
+} 

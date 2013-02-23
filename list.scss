@@ -1,0 +1,65 @@
+@import "mix";
+
+.list {
+  display: block;
+
+  li {
+    padding: 15px 0;
+    border-bottom: 1px solid #dadada;
+    overflow: hidden;
+    &:last-child {
+      border: none;
+    }
+  }
+
+  .pic {
+    float: left;
+    margin-right: 10px;
+    font-size: 0;
+  }
+
+  .info {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+  }
+
+  .title {
+    font-size: 16px;
+    a {
+      color: #252525;
+    }
+  }
+
+  .bns {
+    float: right;
+    margin-left: 10px;
+  }
+}
+
+.list-goto {
+  li {
+    overflow: visible;
+  }
+  a {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: -10px;
+    @include box-sizing(content-box);
+    @include border-radius(3px);
+    @include transform(translate(-5px, 5px) scale(1) translateZ(0));
+    font-size: 16px;
+    color: #252525;
+  }
+
+  a:active {
+  }
+}
+
+.item {
+  padding: 15px 0;
+  overflow: hidden;
+  @extend .list;
+}
