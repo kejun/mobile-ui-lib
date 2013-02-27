@@ -1,0 +1,6 @@
+{
+  "name": "mobile-ui-lib",
+  "version": "1.0.0",
+  "description": "a mobile app ui lib",
+  "styles": ["dist/mobile-ui.css"]
+}
