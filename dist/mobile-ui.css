@@ -193,6 +193,8 @@
     -moz-background-size: 24px 24px;
     background-size: 24px 24px; }
 
-.page {
-  width: 100%;
+body {
   background-color: #f2f2f2; }
+
+.page {
+  width: 100%; }

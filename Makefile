@@ -3,7 +3,6 @@ default:
 	component install
 	grunt
 
-
 clean:
 	rm -fr components node_modules
 
