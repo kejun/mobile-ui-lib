@@ -192,3 +192,7 @@
     -webkit-background-size: 24px 24px;
     -moz-background-size: 24px 24px;
     background-size: 24px 24px; }
+
+.page {
+  width: 100%;
+  background-color: #f2f2f2; }
