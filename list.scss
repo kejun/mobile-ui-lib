@@ -5,8 +5,10 @@
 
   li {
     padding: 15px 0;
+    margin: 0;
     border-bottom: 1px solid #dadada;
     overflow: hidden;
+    list-style: none;
     &:last-child {
       border: none;
     }
