@@ -29,11 +29,18 @@
   background-color: rgba(180, 180, 180, 0.2); }
 
 .list, .item {
-  display: block; }
+  display: block;
+  padding: 0;
+  margin: 0; }
+  .list ul, .item ul {
+    padding: 0;
+    margin: 0; }
   .list li, .item li {
     padding: 15px 0;
+    margin: 0;
     border-bottom: 1px solid #dadada;
-    overflow: hidden; }
+    overflow: hidden;
+    list-style: none; }
     .list li:last-child, .item li:last-child {
       border: none; }
   .list .pic, .item .pic {
